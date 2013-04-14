@@ -14,5 +14,39 @@
 // 4. load the region centered around the geo location and display it
 // next steps??
 
+'use strict';
+
+var GeoTest = {};
+
+(function(app){
+
+    var onDeviceReady = function() {
+
+        app = new Backbone.Marionette.Application();
+
+        app.addRegions({
+            header: 'header',
+            main: 'section.main',
+            footer: 'footer'
+        });
+
+        app.on('initialize:after', function () {
+            Backbone.history.start();
+        });
+
+        alert('device ready');
+
+        // can we start listening to some 'location updated' event here?
+    };
+
+    document.addEventListener('deviceready', this.onDeviceReady, false);
+
+}(GeoTest));
+
+
+
+
+
+
 
 
