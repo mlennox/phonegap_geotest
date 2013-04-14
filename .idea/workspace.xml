@@ -5,12 +5,12 @@
     <ignored path="PhonegapGeoTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/gen/ie/webpusher/phonegap_geotest/R.java" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952933725" ignored="false" />
-    <file path="/index.html" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952666022" ignored="false" />
+    <file path="/index.html" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365955734378" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/modules.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952922663" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365953707803" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365955742029" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952922663" ignored="false" />
     <file path="$PROJECT_DIR$/gen/ie/webpusher/phonegap_geotest/Manifest.java" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952933725" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365952936782" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365955653095" ignored="false" />
     <file path="$PROJECT_DIR$/gen/ie/webpusher/phonegap_geotest/BuildConfig.java" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365953041476" ignored="false" />
     <file path="/config.xml" changelist="abf525b7-ac9b-411e-ab3f-d34085f8fd30" time="1365953682371" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,7 +76,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="1306" selection-end="1306" vertical-scroll-proportion="-2.875">
+            <state line="36" column="97" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-8.541667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geotest.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/js/geotest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="15" selection-start="521" selection-end="521" vertical-scroll-proportion="0.2843602">
               <folding />
             </state>
           </provider>
@@ -93,26 +102,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhonegapGeoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ie/webpusher/phonegap_geotest/PhonegapGeoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="21" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="95" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.64735514">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -123,9 +112,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/src/ie/webpusher/phonegap_geotest/PhonegapGeoTest.java" />
         <option value="$PROJECT_DIR$/res/xml/config.xml" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/js/geotest.js" />
       </list>
     </option>
   </component>
@@ -265,7 +255,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -448,6 +438,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="abf525b7-ac9b-411e-ab3f-d34085f8fd30" name="Default" comment="" />
@@ -571,16 +578,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ie/webpusher/phonegap_geotest/PhonegapGeoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="21" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.0">
+        <state line="33" column="21" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.5687204">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="1306" selection-end="1306" vertical-scroll-proportion="-2.875">
+        <state line="48" column="95" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.64735514">
           <folding />
         </state>
       </provider>
@@ -594,9 +601,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="95" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.64735514">
+        <state line="36" column="97" selection-start="1725" selection-end="1725" vertical-scroll-proportion="-8.541667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/geotest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="521" selection-end="521" vertical-scroll-proportion="0.2843602">
           <folding />
         </state>
       </provider>
