@@ -3976,7 +3976,7 @@ module.exports = accelerometer;
 
 });
 
-// file: lib/android/plugin/android/app.js
+// file: lib/android/plugin/android/zigger.js
 define("cordova/plugin/android/app", function(require, exports, module) {
 
 var exec = require('cordova/exec');

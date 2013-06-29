@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
         <title>Geo Tester</title>
     </head>
     <body>
@@ -13,13 +13,6 @@
         </header>
 
         <section class="main">
-           <dl>
-               <dt>Latitude</dt>
-               <dd class="latitude"></dd>
-
-               <dt>Longitude</dt>
-               <dd class="longitude"></dd>
-           </dl>
 
         </section>
 
@@ -29,12 +22,28 @@
             </nav>
         </footer>
 
-        <script src="js/cordova-2.4.0.js"></script>
-        <script src="js/jquery-1.9.1.min.js"></script>
-        <script src="js/underscore-min.js"></script>
-        <script src="js/backbone.js"></script>
-        <script src="js/backbone.localStorage.js"></script>
-        <script src="js/backbone.marionette.js"></script>
-        <script src="js/geotest.js"></script>
+        <script data-main="js/config.js" src="js/libs/require.js"></script>
+
+        <script type="text/html" id="template-geotestCoordsView">
+           <dl>
+               <dt>Latitude</dt>
+               <dd class="latitude"><%= latitude %></dd>
+
+               <dt>Longitude</dt>
+               <dd class="longitude"><%= longitude %></dd>
+           </dl>
+       </script>
+
+       <!-- <s src="js/libs/cordova-2.4.0.js"></script>
+       <script src="js/libs/jquery-1.9.1.min.js"></script>
+       <script src="js/libs/underscore-min.js"></script>
+       <script src="js/libs/backbone.js"></script>
+       <script src="js/libs/backbone.localStorage.js"></script>
+       <script src="js/libs/backbone.marionette.js"></script>
+       <script src="js/geotest.js"></script>
+       <script src="js/coords-model.js"></script>
+       <script src="js/coords-view.js"></script>
+       <script src="js/GeoTest.LocationTracker.js"></script>
+       <script src="js/router.js"></script>  -->
     </body>
 </html>
